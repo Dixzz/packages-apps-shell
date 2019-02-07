@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.havoc.settings.preferences;
+package com.pearl.shell.preferences;
 
 import android.content.Context;
 import android.util.AttributeSet;
