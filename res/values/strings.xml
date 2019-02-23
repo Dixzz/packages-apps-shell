@@ -13,12 +13,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- cards -->
-    <string name="card1">Status Bar</string>
-    <string name="card2">Lock Screen</string>
-    <string name="card3">Buttons</string>
-    <string name="card4">Interface</string>
-    <string name="card5">Recents</string>
-    <string name="card6">Misc</string>
+    <string name="statusbar_tab">Status Bar</string>
+    <string name="lockscreen_tab">Lock Screen</string>
+    <string name="button_tab">Buttons</string>
+    <string name="interface_tab">Interface</string>
+    <string name="recents_tab">Recents</string>
+    <string name="misc_tab">Misc</string>
     <string name="statusbar_title">Statusbar</string>
 
     <!-- Omani Themes -->
@@ -164,4 +164,21 @@
     <string name="heads_up_snooze_10min">10 minutes</string>
     <string name="heads_up_snooze_15min">15 minutes</string>
     <string name="heads_up_snooze_20min">20 minutes</string>
+
+    <!-- Clear all recents -->
+    <string name="recents_title">Recents</string>
+    <string name="aosp_recents_title">AOSP recents</string>
+    <string name="clearall_recents_category">Clear all button</string>
+    <string name="show_clear_all_recents_button_title">Enable clear all button</string>
+    <string name="show_clear_all_recents_button_summary">Show the clear all button when using recents</string>
+    <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
+    <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
+    <string name="recents_clear_all_location_title">Clear all FAB location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+
 </resources>
