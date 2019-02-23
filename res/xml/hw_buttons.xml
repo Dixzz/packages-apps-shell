@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 The Pearl Project
+<!--
+     Copyright (C) 2016 AospExtended ROM Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -10,19 +11,10 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/buttons_title">
 
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <Preference
-        android:icon="@drawable/ic_sound_settings"
-        android:key="sound_settings"
-        android:title="@string/sound_settings_title"
-        android:fragment="com.pearl.shell.fragments.SystemSoundSettings" />
-
-    <Preference
-            android:key="buttons"
-            android:fragment="com.pearl.shell.fragments.Buttons"
-            android:icon="@drawable/ic_buttons"
-            android:title="@string/button_title" />
 
 </PreferenceScreen>
