@@ -23,6 +23,6 @@
             android:key="buttons"
             android:fragment="com.pearl.shell.fragments.Buttons"
             android:icon="@drawable/ic_buttons"
-            android:title="@string/button_title" />
+            android:title="@string/buttons_title" />
 
 </PreferenceScreen>
