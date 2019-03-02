@@ -25,4 +25,11 @@
                  android:targetPackage="org.omnirom.omnistyle"
                  android:targetClass="org.omnirom.omnistyle.BrowseThemesActivity" />
     </Preference>
+
+    <com.pearl.shell.preferences.SystemSettingSwitchPreference
+        android:key="notification_sound_vib_screen_on"
+        android:title="@string/notification_sound_vib_screen_on_title"
+        android:summary="@string/notification_sound_vib_screen_on_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
